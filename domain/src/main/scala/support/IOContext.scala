@@ -1,0 +1,8 @@
+package support
+
+/**
+  *
+  */
+trait IOContext {
+
+}

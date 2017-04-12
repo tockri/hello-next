@@ -1,0 +1,1284 @@
+[0m[[0minfo[0m] [0mUpdating {file:/Users/fujita/dev/nulab/labo/hello/}infra...[0m
+[0m[[0mdebug[0m] [0m:: resolving dependencies :: hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0m	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool][0m
+[0m[[0mdebug[0m] [0m	validate = true[0m
+[0m[[0mdebug[0m] [0m	refresh = false[0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.11.8 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@59048c27[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.8[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.11.8 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m	[2.11.8] org.scala-lang#scala-library;2.11.8[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->hello-domain#hello-domain_2.11;1.0.0-SNAPSHOT [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving hello-domain#hello-domain_2.11;1.0.0-SNAPSHOT ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: hello-domain#hello-domain_2.11;1.0.0-SNAPSHOT {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdon't use cache for hello-domain#hello-domain_2.11;1.0.0-SNAPSHOT: changing=true[0m
+[0m[[0mdebug[0m] [0m	found hello-domain#hello-domain_2.11;1.0.0-SNAPSHOT in inter-project[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-domain#hello-domain_2.11;1.0.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-domain#hello-domain_2.11;1.0.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-domain#hello-domain_2.11;1.0.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-domain#hello-domain_2.11;1.0.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-domain#hello-domain_2.11;1.0.0-SNAPSHOT->joda-time#joda-time;2.9.9 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving joda-time#joda-time;2.9.9 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: joda-time#joda-time;2.9.9 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: joda-time#joda-time;2.9.9[0m
+[0m[[0mdebug[0m] [0m	found joda-time#joda-time;2.9.9 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-domain#hello-domain_2.11;1.0.0-SNAPSHOT->joda-time#joda-time;2.9.9 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-domain#hello-domain_2.11;1.0.0-SNAPSHOT->joda-time#joda-time;2.9.9 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-domain#hello-domain_2.11;1.0.0-SNAPSHOT->joda-time#joda-time;2.9.9 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-domain#hello-domain_2.11;1.0.0-SNAPSHOT->ch.qos.logback#logback-classic;1.1.7 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving ch.qos.logback#logback-classic;1.1.7 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: ch.qos.logback#logback-classic;1.1.7 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: ch.qos.logback#logback-classic;1.1.7[0m
+[0m[[0mdebug[0m] [0m	found ch.qos.logback#logback-classic;1.1.7 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-domain#hello-domain_2.11;1.0.0-SNAPSHOT->ch.qos.logback#logback-classic;1.1.7 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-domain#hello-domain_2.11;1.0.0-SNAPSHOT->ch.qos.logback#logback-classic;1.1.7 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.1.7->ch.qos.logback#logback-core;1.1.7 [compile->master(compile)][0m
+[0m[[0minfo[0m] [0mResolving ch.qos.logback#logback-core;1.1.7 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: ch.qos.logback#logback-core;1.1.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)], test=[runtime(*), master(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: ch.qos.logback#logback-core;1.1.7[0m
+[0m[[0mdebug[0m] [0m	found ch.qos.logback#logback-core;1.1.7 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.1.7->ch.qos.logback#logback-core;1.1.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.1.7->ch.qos.logback#logback-core;1.1.7 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.1.7->ch.qos.logback#logback-core;1.1.7 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.1.7->org.slf4j#slf4j-api;1.7.20 [compile->master(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.slf4j#slf4j-api;1.7.20 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.slf4j#slf4j-api;1.7.20 {compile=[compile(*), master(compile)], runtime=[runtime(*)], test=[runtime(*), master(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.slf4j#slf4j-api;1.7.20[0m
+[0m[[0mdebug[0m] [0m	found org.slf4j#slf4j-api;1.7.20 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.1.7->org.slf4j#slf4j-api;1.7.20 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.1.7->org.slf4j#slf4j-api;1.7.20 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.1.7->org.slf4j#slf4j-api;1.7.20 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.1.7->ch.qos.logback#logback-core;1.1.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.1.7->ch.qos.logback#logback-core;1.1.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.1.7->org.slf4j#slf4j-api;1.7.20 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.1.7->org.slf4j#slf4j-api;1.7.20 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-domain#hello-domain_2.11;1.0.0-SNAPSHOT->ch.qos.logback#logback-classic;1.1.7 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-domain#hello-domain_2.11;1.0.0-SNAPSHOT->com.typesafe.scala-logging#scala-logging_2.11;3.5.0 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.scala-logging#scala-logging_2.11;3.5.0 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe.scala-logging#scala-logging_2.11;3.5.0 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe.scala-logging#scala-logging_2.11;3.5.0[0m
+[0m[[0mdebug[0m] [0m	found com.typesafe.scala-logging#scala-logging_2.11;3.5.0 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-domain#hello-domain_2.11;1.0.0-SNAPSHOT->com.typesafe.scala-logging#scala-logging_2.11;3.5.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-domain#hello-domain_2.11;1.0.0-SNAPSHOT->com.typesafe.scala-logging#scala-logging_2.11;3.5.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.scala-logging#scala-logging_2.11;3.5.0->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.scala-logging#scala-logging_2.11;3.5.0->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.scala-logging#scala-logging_2.11;3.5.0->org.scala-lang#scala-library;2.11.8 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.scala-logging#scala-logging_2.11;3.5.0->org.scala-lang#scala-library;2.11.8 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.scala-logging#scala-logging_2.11;3.5.0->org.scala-lang#scala-reflect;2.11.8 [compile->master(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-reflect;2.11.8 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.11.8[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-reflect;2.11.8 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m	[2.11.8] org.scala-lang#scala-reflect;2.11.8[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.scala-logging#scala-logging_2.11;3.5.0->org.scala-lang#scala-reflect;2.11.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.8->org.scala-lang#scala-library;2.11.8 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.8->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.scala-logging#scala-logging_2.11;3.5.0->org.scala-lang#scala-reflect;2.11.8 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.scala-logging#scala-logging_2.11;3.5.0->org.scala-lang#scala-reflect;2.11.8 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.8->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.8->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.scala-logging#scala-logging_2.11;3.5.0->org.slf4j#slf4j-api;1.7.21 [compile->master(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.slf4j#slf4j-api;1.7.21 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.slf4j#slf4j-api;1.7.21 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.slf4j#slf4j-api;1.7.21[0m
+[0m[[0mdebug[0m] [0m	found org.slf4j#slf4j-api;1.7.21 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.scala-logging#scala-logging_2.11;3.5.0->org.slf4j#slf4j-api;1.7.21 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.scala-logging#scala-logging_2.11;3.5.0->org.slf4j#slf4j-api;1.7.21 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.scala-logging#scala-logging_2.11;3.5.0->org.slf4j#slf4j-api;1.7.21 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.scala-logging#scala-logging_2.11;3.5.0->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.scala-logging#scala-logging_2.11;3.5.0->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.scala-logging#scala-logging_2.11;3.5.0->org.scala-lang#scala-reflect;2.11.8 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.scala-logging#scala-logging_2.11;3.5.0->org.scala-lang#scala-reflect;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.scala-logging#scala-logging_2.11;3.5.0->org.slf4j#slf4j-api;1.7.21 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.scala-logging#scala-logging_2.11;3.5.0->org.slf4j#slf4j-api;1.7.21 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-domain#hello-domain_2.11;1.0.0-SNAPSHOT->com.typesafe.scala-logging#scala-logging_2.11;3.5.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->joda-time#joda-time;2.9.9 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->joda-time#joda-time;2.9.9 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->joda-time#joda-time;2.9.9 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->joda-time#joda-time;2.9.9 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->ch.qos.logback#logback-classic;1.1.7 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->ch.qos.logback#logback-classic;1.1.7 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->ch.qos.logback#logback-classic;1.1.7 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->ch.qos.logback#logback-classic;1.1.7 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->com.typesafe.scala-logging#scala-logging_2.11;3.5.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->com.typesafe.scala-logging#scala-logging_2.11;3.5.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->com.typesafe.scala-logging#scala-logging_2.11;3.5.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->com.typesafe.scala-logging#scala-logging_2.11;3.5.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->mysql#mysql-connector-java;5.1.36 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving mysql#mysql-connector-java;5.1.36 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: mysql#mysql-connector-java;5.1.36 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: mysql#mysql-connector-java;5.1.36[0m
+[0m[[0mdebug[0m] [0m	found mysql#mysql-connector-java;5.1.36 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->mysql#mysql-connector-java;5.1.36 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->mysql#mysql-connector-java;5.1.36 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->mysql#mysql-connector-java;5.1.36 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->org.scalikejdbc#scalikejdbc_2.11;2.5.1 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scalikejdbc#scalikejdbc_2.11;2.5.1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scalikejdbc#scalikejdbc_2.11;2.5.1 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scalikejdbc#scalikejdbc_2.11;2.5.1[0m
+[0m[[0mdebug[0m] [0m	found org.scalikejdbc#scalikejdbc_2.11;2.5.1 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->org.scalikejdbc#scalikejdbc_2.11;2.5.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->org.scalikejdbc#scalikejdbc_2.11;2.5.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc_2.11;2.5.1->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc_2.11;2.5.1->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc_2.11;2.5.1->org.scalikejdbc#scalikejdbc-core_2.11;2.5.1 [compile->master(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scalikejdbc#scalikejdbc-core_2.11;2.5.1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scalikejdbc#scalikejdbc-core_2.11;2.5.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scalikejdbc#scalikejdbc-core_2.11;2.5.1[0m
+[0m[[0mdebug[0m] [0m	found org.scalikejdbc#scalikejdbc-core_2.11;2.5.1 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc_2.11;2.5.1->org.scalikejdbc#scalikejdbc-core_2.11;2.5.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->org.scala-lang#scala-reflect;2.11.8 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->org.scala-lang#scala-reflect;2.11.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->org.apache.commons#commons-dbcp2;2.1.1 [compile->master(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.apache.commons#commons-dbcp2;2.1.1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.commons#commons-dbcp2;2.1.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.commons#commons-dbcp2;2.1.1[0m
+[0m[[0mdebug[0m] [0m	found org.apache.commons#commons-dbcp2;2.1.1 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->org.apache.commons#commons-dbcp2;2.1.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-dbcp2;2.1.1->org.apache.commons#commons-pool2;2.4.2 [compile->master(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.apache.commons#commons-pool2;2.4.2 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.commons#commons-pool2;2.4.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.commons#commons-pool2;2.4.2[0m
+[0m[[0mdebug[0m] [0m	found org.apache.commons#commons-pool2;2.4.2 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-dbcp2;2.1.1->org.apache.commons#commons-pool2;2.4.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-dbcp2;2.1.1->commons-logging#commons-logging;1.2 [compile->master(compile)][0m
+[0m[[0minfo[0m] [0mResolving commons-logging#commons-logging;1.2 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: commons-logging#commons-logging;1.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: commons-logging#commons-logging;1.2[0m
+[0m[[0mdebug[0m] [0m	found commons-logging#commons-logging;1.2 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-dbcp2;2.1.1->commons-logging#commons-logging;1.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->org.slf4j#slf4j-api;1.7.24 [compile->master(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.slf4j#slf4j-api;1.7.24 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.slf4j#slf4j-api;1.7.24 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.slf4j#slf4j-api;1.7.24[0m
+[0m[[0mdebug[0m] [0m	found org.slf4j#slf4j-api;1.7.24 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->org.slf4j#slf4j-api;1.7.24 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->org.slf4j#slf4j-api;1.7.24 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->org.slf4j#slf4j-api;1.7.24 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->joda-time#joda-time;2.9.5 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->joda-time#joda-time;2.9.9 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->joda-time#joda-time;2.9.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->joda-time#joda-time;2.9.9 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->org.joda#joda-convert;1.8.1 [compile->master(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.joda#joda-convert;1.8.1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.joda#joda-convert;1.8.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.joda#joda-convert;1.8.1[0m
+[0m[[0mdebug[0m] [0m	found org.joda#joda-convert;1.8.1 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->org.joda#joda-convert;1.8.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->master(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.6 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.8 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.6 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc_2.11;2.5.1->org.scalikejdbc#scalikejdbc-core_2.11;2.5.1 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc_2.11;2.5.1->org.scalikejdbc#scalikejdbc-core_2.11;2.5.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->org.scala-lang#scala-reflect;2.11.8 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->org.scala-lang#scala-reflect;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->org.apache.commons#commons-dbcp2;2.1.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->org.apache.commons#commons-dbcp2;2.1.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-dbcp2;2.1.1->org.apache.commons#commons-pool2;2.4.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-dbcp2;2.1.1->org.apache.commons#commons-pool2;2.4.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-dbcp2;2.1.1->commons-logging#commons-logging;1.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-dbcp2;2.1.1->commons-logging#commons-logging;1.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->org.slf4j#slf4j-api;1.7.24 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->org.slf4j#slf4j-api;1.7.24 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->joda-time#joda-time;2.9.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->joda-time#joda-time;2.9.9 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->joda-time#joda-time;2.9.9 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->org.joda#joda-convert;1.8.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->org.joda#joda-convert;1.8.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.6 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc_2.11;2.5.1->org.scalikejdbc#scalikejdbc-interpolation_2.11;2.5.1 [compile->master(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scalikejdbc#scalikejdbc-interpolation_2.11;2.5.1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scalikejdbc#scalikejdbc-interpolation_2.11;2.5.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scalikejdbc#scalikejdbc-interpolation_2.11;2.5.1[0m
+[0m[[0mdebug[0m] [0m	found org.scalikejdbc#scalikejdbc-interpolation_2.11;2.5.1 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc_2.11;2.5.1->org.scalikejdbc#scalikejdbc-interpolation_2.11;2.5.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation_2.11;2.5.1->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation_2.11;2.5.1->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation_2.11;2.5.1->org.scalikejdbc#scalikejdbc-core_2.11;2.5.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation_2.11;2.5.1->org.scalikejdbc#scalikejdbc-core_2.11;2.5.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation_2.11;2.5.1->org.scalikejdbc#scalikejdbc-interpolation-macro_2.11;2.5.1 [compile->master(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scalikejdbc#scalikejdbc-interpolation-macro_2.11;2.5.1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scalikejdbc#scalikejdbc-interpolation-macro_2.11;2.5.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scalikejdbc#scalikejdbc-interpolation-macro_2.11;2.5.1[0m
+[0m[[0mdebug[0m] [0m	found org.scalikejdbc#scalikejdbc-interpolation-macro_2.11;2.5.1 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation_2.11;2.5.1->org.scalikejdbc#scalikejdbc-interpolation-macro_2.11;2.5.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation-macro_2.11;2.5.1->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation-macro_2.11;2.5.1->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation-macro_2.11;2.5.1->org.scalikejdbc#scalikejdbc-core_2.11;2.5.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation-macro_2.11;2.5.1->org.scalikejdbc#scalikejdbc-core_2.11;2.5.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation-macro_2.11;2.5.1->org.scala-lang#scala-reflect;2.11.8 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation-macro_2.11;2.5.1->org.scala-lang#scala-reflect;2.11.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation_2.11;2.5.1->org.slf4j#slf4j-api;1.7.24 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation_2.11;2.5.1->org.slf4j#slf4j-api;1.7.24 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc_2.11;2.5.1->org.scalikejdbc#scalikejdbc-interpolation_2.11;2.5.1 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc_2.11;2.5.1->org.scalikejdbc#scalikejdbc-interpolation_2.11;2.5.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation_2.11;2.5.1->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation_2.11;2.5.1->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation_2.11;2.5.1->org.scalikejdbc#scalikejdbc-core_2.11;2.5.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation_2.11;2.5.1->org.scalikejdbc#scalikejdbc-core_2.11;2.5.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation_2.11;2.5.1->org.scalikejdbc#scalikejdbc-interpolation-macro_2.11;2.5.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation_2.11;2.5.1->org.scalikejdbc#scalikejdbc-interpolation-macro_2.11;2.5.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation-macro_2.11;2.5.1->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation-macro_2.11;2.5.1->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation-macro_2.11;2.5.1->org.scalikejdbc#scalikejdbc-core_2.11;2.5.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation-macro_2.11;2.5.1->org.scalikejdbc#scalikejdbc-core_2.11;2.5.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation-macro_2.11;2.5.1->org.scala-lang#scala-reflect;2.11.8 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation-macro_2.11;2.5.1->org.scala-lang#scala-reflect;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation_2.11;2.5.1->org.slf4j#slf4j-api;1.7.24 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation_2.11;2.5.1->org.slf4j#slf4j-api;1.7.24 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc_2.11;2.5.1->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc_2.11;2.5.1->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc_2.11;2.5.1->org.scalikejdbc#scalikejdbc-core_2.11;2.5.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc_2.11;2.5.1->org.scalikejdbc#scalikejdbc-core_2.11;2.5.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc_2.11;2.5.1->org.scalikejdbc#scalikejdbc-interpolation_2.11;2.5.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc_2.11;2.5.1->org.scalikejdbc#scalikejdbc-interpolation_2.11;2.5.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->org.scalikejdbc#scalikejdbc_2.11;2.5.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->org.scalikejdbc#scalikejdbc-config_2.11;2.5.1 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scalikejdbc#scalikejdbc-config_2.11;2.5.1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scalikejdbc#scalikejdbc-config_2.11;2.5.1 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scalikejdbc#scalikejdbc-config_2.11;2.5.1[0m
+[0m[[0mdebug[0m] [0m	found org.scalikejdbc#scalikejdbc-config_2.11;2.5.1 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->org.scalikejdbc#scalikejdbc-config_2.11;2.5.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->org.scalikejdbc#scalikejdbc-config_2.11;2.5.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-config_2.11;2.5.1->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-config_2.11;2.5.1->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-config_2.11;2.5.1->org.scalikejdbc#scalikejdbc-core_2.11;2.5.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-config_2.11;2.5.1->org.scalikejdbc#scalikejdbc-core_2.11;2.5.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-config_2.11;2.5.1->com.typesafe#config;1.2.1 [compile->master(compile)][0m
+[0m[[0minfo[0m] [0mResolving com.typesafe#config;1.2.1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe#config;1.2.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe#config;1.2.1[0m
+[0m[[0mdebug[0m] [0m	found com.typesafe#config;1.2.1 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-config_2.11;2.5.1->com.typesafe#config;1.2.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-config_2.11;2.5.1->com.typesafe#config;1.2.1 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-config_2.11;2.5.1->com.typesafe#config;1.2.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-config_2.11;2.5.1->org.slf4j#slf4j-api;1.7.24 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-config_2.11;2.5.1->org.slf4j#slf4j-api;1.7.24 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-config_2.11;2.5.1->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-config_2.11;2.5.1->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-config_2.11;2.5.1->org.scalikejdbc#scalikejdbc-core_2.11;2.5.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-config_2.11;2.5.1->org.scalikejdbc#scalikejdbc-core_2.11;2.5.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-config_2.11;2.5.1->com.typesafe#config;1.2.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-config_2.11;2.5.1->com.typesafe#config;1.2.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-config_2.11;2.5.1->org.slf4j#slf4j-api;1.7.24 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-config_2.11;2.5.1->org.slf4j#slf4j-api;1.7.24 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->org.scalikejdbc#scalikejdbc-config_2.11;2.5.1 [compile->master][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->hello-domain#hello-domain_2.11;1.0.0-SNAPSHOT [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-domain#hello-domain_2.11;1.0.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-domain#hello-domain_2.11;1.0.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-domain#hello-domain_2.11;1.0.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-domain#hello-domain_2.11;1.0.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-domain#hello-domain_2.11;1.0.0-SNAPSHOT->joda-time#joda-time;2.9.9 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-domain#hello-domain_2.11;1.0.0-SNAPSHOT->joda-time#joda-time;2.9.9 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-domain#hello-domain_2.11;1.0.0-SNAPSHOT->joda-time#joda-time;2.9.9 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-domain#hello-domain_2.11;1.0.0-SNAPSHOT->joda-time#joda-time;2.9.9 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-domain#hello-domain_2.11;1.0.0-SNAPSHOT->ch.qos.logback#logback-classic;1.1.7 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-domain#hello-domain_2.11;1.0.0-SNAPSHOT->ch.qos.logback#logback-classic;1.1.7 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-domain#hello-domain_2.11;1.0.0-SNAPSHOT->ch.qos.logback#logback-classic;1.1.7 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.1.7->ch.qos.logback#logback-core;1.1.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.1.7->ch.qos.logback#logback-core;1.1.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.1.7->org.slf4j#slf4j-api;1.7.20 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.1.7->org.slf4j#slf4j-api;1.7.20 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.1.7->ch.qos.logback#logback-core;1.1.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.1.7->ch.qos.logback#logback-core;1.1.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.1.7->org.slf4j#slf4j-api;1.7.20 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.1.7->org.slf4j#slf4j-api;1.7.20 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-domain#hello-domain_2.11;1.0.0-SNAPSHOT->ch.qos.logback#logback-classic;1.1.7 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-domain#hello-domain_2.11;1.0.0-SNAPSHOT->com.typesafe.scala-logging#scala-logging_2.11;3.5.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-domain#hello-domain_2.11;1.0.0-SNAPSHOT->com.typesafe.scala-logging#scala-logging_2.11;3.5.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-domain#hello-domain_2.11;1.0.0-SNAPSHOT->com.typesafe.scala-logging#scala-logging_2.11;3.5.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.scala-logging#scala-logging_2.11;3.5.0->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.scala-logging#scala-logging_2.11;3.5.0->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.scala-logging#scala-logging_2.11;3.5.0->org.scala-lang#scala-reflect;2.11.8 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.scala-logging#scala-logging_2.11;3.5.0->org.scala-lang#scala-reflect;2.11.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.8->org.scala-lang#scala-library;2.11.8 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.8->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.scala-logging#scala-logging_2.11;3.5.0->org.slf4j#slf4j-api;1.7.21 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.scala-logging#scala-logging_2.11;3.5.0->org.slf4j#slf4j-api;1.7.21 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.scala-logging#scala-logging_2.11;3.5.0->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.scala-logging#scala-logging_2.11;3.5.0->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.scala-logging#scala-logging_2.11;3.5.0->org.scala-lang#scala-reflect;2.11.8 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.scala-logging#scala-logging_2.11;3.5.0->org.scala-lang#scala-reflect;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.8->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.8->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.scala-logging#scala-logging_2.11;3.5.0->org.slf4j#slf4j-api;1.7.21 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.scala-logging#scala-logging_2.11;3.5.0->org.slf4j#slf4j-api;1.7.21 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-domain#hello-domain_2.11;1.0.0-SNAPSHOT->com.typesafe.scala-logging#scala-logging_2.11;3.5.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->joda-time#joda-time;2.9.9 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->joda-time#joda-time;2.9.9 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->joda-time#joda-time;2.9.9 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->joda-time#joda-time;2.9.9 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->ch.qos.logback#logback-classic;1.1.7 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->ch.qos.logback#logback-classic;1.1.7 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->ch.qos.logback#logback-classic;1.1.7 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->ch.qos.logback#logback-classic;1.1.7 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->com.typesafe.scala-logging#scala-logging_2.11;3.5.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->com.typesafe.scala-logging#scala-logging_2.11;3.5.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->com.typesafe.scala-logging#scala-logging_2.11;3.5.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->com.typesafe.scala-logging#scala-logging_2.11;3.5.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->mysql#mysql-connector-java;5.1.36 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->mysql#mysql-connector-java;5.1.36 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->mysql#mysql-connector-java;5.1.36 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->mysql#mysql-connector-java;5.1.36 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->org.scalikejdbc#scalikejdbc_2.11;2.5.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->org.scalikejdbc#scalikejdbc_2.11;2.5.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->org.scalikejdbc#scalikejdbc_2.11;2.5.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc_2.11;2.5.1->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc_2.11;2.5.1->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc_2.11;2.5.1->org.scalikejdbc#scalikejdbc-core_2.11;2.5.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc_2.11;2.5.1->org.scalikejdbc#scalikejdbc-core_2.11;2.5.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->org.scala-lang#scala-reflect;2.11.8 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->org.scala-lang#scala-reflect;2.11.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->org.apache.commons#commons-dbcp2;2.1.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->org.apache.commons#commons-dbcp2;2.1.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-dbcp2;2.1.1->org.apache.commons#commons-pool2;2.4.2 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-dbcp2;2.1.1->org.apache.commons#commons-pool2;2.4.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-dbcp2;2.1.1->commons-logging#commons-logging;1.2 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-dbcp2;2.1.1->commons-logging#commons-logging;1.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->org.slf4j#slf4j-api;1.7.24 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->org.slf4j#slf4j-api;1.7.24 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->joda-time#joda-time;2.9.5 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->joda-time#joda-time;2.9.9 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->joda-time#joda-time;2.9.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->joda-time#joda-time;2.9.9 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->org.joda#joda-convert;1.8.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->org.joda#joda-convert;1.8.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.6 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.8 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.6 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc_2.11;2.5.1->org.scalikejdbc#scalikejdbc-interpolation_2.11;2.5.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc_2.11;2.5.1->org.scalikejdbc#scalikejdbc-interpolation_2.11;2.5.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation_2.11;2.5.1->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation_2.11;2.5.1->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation_2.11;2.5.1->org.scalikejdbc#scalikejdbc-core_2.11;2.5.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation_2.11;2.5.1->org.scalikejdbc#scalikejdbc-core_2.11;2.5.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation_2.11;2.5.1->org.scalikejdbc#scalikejdbc-interpolation-macro_2.11;2.5.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation_2.11;2.5.1->org.scalikejdbc#scalikejdbc-interpolation-macro_2.11;2.5.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation-macro_2.11;2.5.1->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation-macro_2.11;2.5.1->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation-macro_2.11;2.5.1->org.scalikejdbc#scalikejdbc-core_2.11;2.5.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation-macro_2.11;2.5.1->org.scalikejdbc#scalikejdbc-core_2.11;2.5.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation-macro_2.11;2.5.1->org.scala-lang#scala-reflect;2.11.8 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation-macro_2.11;2.5.1->org.scala-lang#scala-reflect;2.11.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation_2.11;2.5.1->org.slf4j#slf4j-api;1.7.24 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation_2.11;2.5.1->org.slf4j#slf4j-api;1.7.24 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc_2.11;2.5.1->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc_2.11;2.5.1->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc_2.11;2.5.1->org.scalikejdbc#scalikejdbc-core_2.11;2.5.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc_2.11;2.5.1->org.scalikejdbc#scalikejdbc-core_2.11;2.5.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->org.scala-lang#scala-reflect;2.11.8 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->org.scala-lang#scala-reflect;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->org.apache.commons#commons-dbcp2;2.1.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->org.apache.commons#commons-dbcp2;2.1.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-dbcp2;2.1.1->org.apache.commons#commons-pool2;2.4.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-dbcp2;2.1.1->org.apache.commons#commons-pool2;2.4.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-dbcp2;2.1.1->commons-logging#commons-logging;1.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-dbcp2;2.1.1->commons-logging#commons-logging;1.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->org.slf4j#slf4j-api;1.7.24 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->org.slf4j#slf4j-api;1.7.24 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->joda-time#joda-time;2.9.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->joda-time#joda-time;2.9.9 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->joda-time#joda-time;2.9.9 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->org.joda#joda-convert;1.8.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->org.joda#joda-convert;1.8.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.6 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc_2.11;2.5.1->org.scalikejdbc#scalikejdbc-interpolation_2.11;2.5.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc_2.11;2.5.1->org.scalikejdbc#scalikejdbc-interpolation_2.11;2.5.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation_2.11;2.5.1->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation_2.11;2.5.1->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation_2.11;2.5.1->org.scalikejdbc#scalikejdbc-core_2.11;2.5.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation_2.11;2.5.1->org.scalikejdbc#scalikejdbc-core_2.11;2.5.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation_2.11;2.5.1->org.scalikejdbc#scalikejdbc-interpolation-macro_2.11;2.5.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation_2.11;2.5.1->org.scalikejdbc#scalikejdbc-interpolation-macro_2.11;2.5.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation-macro_2.11;2.5.1->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation-macro_2.11;2.5.1->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation-macro_2.11;2.5.1->org.scalikejdbc#scalikejdbc-core_2.11;2.5.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation-macro_2.11;2.5.1->org.scalikejdbc#scalikejdbc-core_2.11;2.5.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation-macro_2.11;2.5.1->org.scala-lang#scala-reflect;2.11.8 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation-macro_2.11;2.5.1->org.scala-lang#scala-reflect;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation_2.11;2.5.1->org.slf4j#slf4j-api;1.7.24 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation_2.11;2.5.1->org.slf4j#slf4j-api;1.7.24 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->org.scalikejdbc#scalikejdbc_2.11;2.5.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->org.scalikejdbc#scalikejdbc-config_2.11;2.5.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->org.scalikejdbc#scalikejdbc-config_2.11;2.5.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->org.scalikejdbc#scalikejdbc-config_2.11;2.5.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-config_2.11;2.5.1->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-config_2.11;2.5.1->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-config_2.11;2.5.1->org.scalikejdbc#scalikejdbc-core_2.11;2.5.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-config_2.11;2.5.1->org.scalikejdbc#scalikejdbc-core_2.11;2.5.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-config_2.11;2.5.1->com.typesafe#config;1.2.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-config_2.11;2.5.1->com.typesafe#config;1.2.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-config_2.11;2.5.1->org.slf4j#slf4j-api;1.7.24 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-config_2.11;2.5.1->org.slf4j#slf4j-api;1.7.24 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-config_2.11;2.5.1->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-config_2.11;2.5.1->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-config_2.11;2.5.1->org.scalikejdbc#scalikejdbc-core_2.11;2.5.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-config_2.11;2.5.1->org.scalikejdbc#scalikejdbc-core_2.11;2.5.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-config_2.11;2.5.1->com.typesafe#config;1.2.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-config_2.11;2.5.1->com.typesafe#config;1.2.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-config_2.11;2.5.1->org.slf4j#slf4j-api;1.7.24 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-config_2.11;2.5.1->org.slf4j#slf4j-api;1.7.24 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->org.scalikejdbc#scalikejdbc-config_2.11;2.5.1 [compile->master][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT [test][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->hello-domain#hello-domain_2.11;1.0.0-SNAPSHOT [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-domain#hello-domain_2.11;1.0.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-domain#hello-domain_2.11;1.0.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-domain#hello-domain_2.11;1.0.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-domain#hello-domain_2.11;1.0.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-domain#hello-domain_2.11;1.0.0-SNAPSHOT->joda-time#joda-time;2.9.9 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-domain#hello-domain_2.11;1.0.0-SNAPSHOT->joda-time#joda-time;2.9.9 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-domain#hello-domain_2.11;1.0.0-SNAPSHOT->joda-time#joda-time;2.9.9 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-domain#hello-domain_2.11;1.0.0-SNAPSHOT->joda-time#joda-time;2.9.9 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-domain#hello-domain_2.11;1.0.0-SNAPSHOT->ch.qos.logback#logback-classic;1.1.7 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-domain#hello-domain_2.11;1.0.0-SNAPSHOT->ch.qos.logback#logback-classic;1.1.7 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-domain#hello-domain_2.11;1.0.0-SNAPSHOT->ch.qos.logback#logback-classic;1.1.7 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.1.7->ch.qos.logback#logback-core;1.1.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.1.7->ch.qos.logback#logback-core;1.1.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.1.7->org.slf4j#slf4j-api;1.7.20 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.1.7->org.slf4j#slf4j-api;1.7.20 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.1.7->ch.qos.logback#logback-core;1.1.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.1.7->ch.qos.logback#logback-core;1.1.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.1.7->org.slf4j#slf4j-api;1.7.20 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.1.7->org.slf4j#slf4j-api;1.7.20 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-domain#hello-domain_2.11;1.0.0-SNAPSHOT->ch.qos.logback#logback-classic;1.1.7 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-domain#hello-domain_2.11;1.0.0-SNAPSHOT->com.typesafe.scala-logging#scala-logging_2.11;3.5.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-domain#hello-domain_2.11;1.0.0-SNAPSHOT->com.typesafe.scala-logging#scala-logging_2.11;3.5.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-domain#hello-domain_2.11;1.0.0-SNAPSHOT->com.typesafe.scala-logging#scala-logging_2.11;3.5.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.scala-logging#scala-logging_2.11;3.5.0->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.scala-logging#scala-logging_2.11;3.5.0->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.scala-logging#scala-logging_2.11;3.5.0->org.scala-lang#scala-reflect;2.11.8 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.scala-logging#scala-logging_2.11;3.5.0->org.scala-lang#scala-reflect;2.11.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.8->org.scala-lang#scala-library;2.11.8 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.8->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.scala-logging#scala-logging_2.11;3.5.0->org.slf4j#slf4j-api;1.7.21 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.scala-logging#scala-logging_2.11;3.5.0->org.slf4j#slf4j-api;1.7.21 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.scala-logging#scala-logging_2.11;3.5.0->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.scala-logging#scala-logging_2.11;3.5.0->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.scala-logging#scala-logging_2.11;3.5.0->org.scala-lang#scala-reflect;2.11.8 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.scala-logging#scala-logging_2.11;3.5.0->org.scala-lang#scala-reflect;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.8->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.8->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.scala-logging#scala-logging_2.11;3.5.0->org.slf4j#slf4j-api;1.7.21 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.scala-logging#scala-logging_2.11;3.5.0->org.slf4j#slf4j-api;1.7.21 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-domain#hello-domain_2.11;1.0.0-SNAPSHOT->com.typesafe.scala-logging#scala-logging_2.11;3.5.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->joda-time#joda-time;2.9.9 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->joda-time#joda-time;2.9.9 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->joda-time#joda-time;2.9.9 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->joda-time#joda-time;2.9.9 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->ch.qos.logback#logback-classic;1.1.7 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->ch.qos.logback#logback-classic;1.1.7 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->ch.qos.logback#logback-classic;1.1.7 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->ch.qos.logback#logback-classic;1.1.7 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->com.typesafe.scala-logging#scala-logging_2.11;3.5.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->com.typesafe.scala-logging#scala-logging_2.11;3.5.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->com.typesafe.scala-logging#scala-logging_2.11;3.5.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->com.typesafe.scala-logging#scala-logging_2.11;3.5.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->mysql#mysql-connector-java;5.1.36 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->mysql#mysql-connector-java;5.1.36 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->mysql#mysql-connector-java;5.1.36 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->mysql#mysql-connector-java;5.1.36 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->org.scalikejdbc#scalikejdbc_2.11;2.5.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->org.scalikejdbc#scalikejdbc_2.11;2.5.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->org.scalikejdbc#scalikejdbc_2.11;2.5.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc_2.11;2.5.1->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc_2.11;2.5.1->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc_2.11;2.5.1->org.scalikejdbc#scalikejdbc-core_2.11;2.5.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc_2.11;2.5.1->org.scalikejdbc#scalikejdbc-core_2.11;2.5.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->org.scala-lang#scala-reflect;2.11.8 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->org.scala-lang#scala-reflect;2.11.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->org.apache.commons#commons-dbcp2;2.1.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->org.apache.commons#commons-dbcp2;2.1.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-dbcp2;2.1.1->org.apache.commons#commons-pool2;2.4.2 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-dbcp2;2.1.1->org.apache.commons#commons-pool2;2.4.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-dbcp2;2.1.1->commons-logging#commons-logging;1.2 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-dbcp2;2.1.1->commons-logging#commons-logging;1.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->org.slf4j#slf4j-api;1.7.24 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->org.slf4j#slf4j-api;1.7.24 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->joda-time#joda-time;2.9.5 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->joda-time#joda-time;2.9.9 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->joda-time#joda-time;2.9.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->joda-time#joda-time;2.9.9 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->org.joda#joda-convert;1.8.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->org.joda#joda-convert;1.8.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.6 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.8 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.6 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc_2.11;2.5.1->org.scalikejdbc#scalikejdbc-interpolation_2.11;2.5.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc_2.11;2.5.1->org.scalikejdbc#scalikejdbc-interpolation_2.11;2.5.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation_2.11;2.5.1->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation_2.11;2.5.1->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation_2.11;2.5.1->org.scalikejdbc#scalikejdbc-core_2.11;2.5.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation_2.11;2.5.1->org.scalikejdbc#scalikejdbc-core_2.11;2.5.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation_2.11;2.5.1->org.scalikejdbc#scalikejdbc-interpolation-macro_2.11;2.5.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation_2.11;2.5.1->org.scalikejdbc#scalikejdbc-interpolation-macro_2.11;2.5.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation-macro_2.11;2.5.1->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation-macro_2.11;2.5.1->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation-macro_2.11;2.5.1->org.scalikejdbc#scalikejdbc-core_2.11;2.5.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation-macro_2.11;2.5.1->org.scalikejdbc#scalikejdbc-core_2.11;2.5.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation-macro_2.11;2.5.1->org.scala-lang#scala-reflect;2.11.8 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation-macro_2.11;2.5.1->org.scala-lang#scala-reflect;2.11.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation_2.11;2.5.1->org.slf4j#slf4j-api;1.7.24 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation_2.11;2.5.1->org.slf4j#slf4j-api;1.7.24 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc_2.11;2.5.1->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc_2.11;2.5.1->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc_2.11;2.5.1->org.scalikejdbc#scalikejdbc-core_2.11;2.5.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc_2.11;2.5.1->org.scalikejdbc#scalikejdbc-core_2.11;2.5.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->org.scala-lang#scala-reflect;2.11.8 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->org.scala-lang#scala-reflect;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->org.apache.commons#commons-dbcp2;2.1.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->org.apache.commons#commons-dbcp2;2.1.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-dbcp2;2.1.1->org.apache.commons#commons-pool2;2.4.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-dbcp2;2.1.1->org.apache.commons#commons-pool2;2.4.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-dbcp2;2.1.1->commons-logging#commons-logging;1.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-dbcp2;2.1.1->commons-logging#commons-logging;1.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->org.slf4j#slf4j-api;1.7.24 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->org.slf4j#slf4j-api;1.7.24 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->joda-time#joda-time;2.9.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->joda-time#joda-time;2.9.9 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->joda-time#joda-time;2.9.9 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->org.joda#joda-convert;1.8.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->org.joda#joda-convert;1.8.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.6 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc_2.11;2.5.1->org.scalikejdbc#scalikejdbc-interpolation_2.11;2.5.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc_2.11;2.5.1->org.scalikejdbc#scalikejdbc-interpolation_2.11;2.5.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation_2.11;2.5.1->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation_2.11;2.5.1->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation_2.11;2.5.1->org.scalikejdbc#scalikejdbc-core_2.11;2.5.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation_2.11;2.5.1->org.scalikejdbc#scalikejdbc-core_2.11;2.5.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation_2.11;2.5.1->org.scalikejdbc#scalikejdbc-interpolation-macro_2.11;2.5.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation_2.11;2.5.1->org.scalikejdbc#scalikejdbc-interpolation-macro_2.11;2.5.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation-macro_2.11;2.5.1->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation-macro_2.11;2.5.1->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation-macro_2.11;2.5.1->org.scalikejdbc#scalikejdbc-core_2.11;2.5.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation-macro_2.11;2.5.1->org.scalikejdbc#scalikejdbc-core_2.11;2.5.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation-macro_2.11;2.5.1->org.scala-lang#scala-reflect;2.11.8 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation-macro_2.11;2.5.1->org.scala-lang#scala-reflect;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation_2.11;2.5.1->org.slf4j#slf4j-api;1.7.24 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation_2.11;2.5.1->org.slf4j#slf4j-api;1.7.24 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->org.scalikejdbc#scalikejdbc_2.11;2.5.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->org.scalikejdbc#scalikejdbc-config_2.11;2.5.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->org.scalikejdbc#scalikejdbc-config_2.11;2.5.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->org.scalikejdbc#scalikejdbc-config_2.11;2.5.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-config_2.11;2.5.1->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-config_2.11;2.5.1->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-config_2.11;2.5.1->org.scalikejdbc#scalikejdbc-core_2.11;2.5.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-config_2.11;2.5.1->org.scalikejdbc#scalikejdbc-core_2.11;2.5.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-config_2.11;2.5.1->com.typesafe#config;1.2.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-config_2.11;2.5.1->com.typesafe#config;1.2.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-config_2.11;2.5.1->org.slf4j#slf4j-api;1.7.24 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-config_2.11;2.5.1->org.slf4j#slf4j-api;1.7.24 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-config_2.11;2.5.1->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-config_2.11;2.5.1->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-config_2.11;2.5.1->org.scalikejdbc#scalikejdbc-core_2.11;2.5.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-config_2.11;2.5.1->org.scalikejdbc#scalikejdbc-core_2.11;2.5.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-config_2.11;2.5.1->com.typesafe#config;1.2.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-config_2.11;2.5.1->com.typesafe#config;1.2.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-config_2.11;2.5.1->org.slf4j#slf4j-api;1.7.24 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-config_2.11;2.5.1->org.slf4j#slf4j-api;1.7.24 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->org.scalikejdbc#scalikejdbc-config_2.11;2.5.1 [compile->master][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'provided'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT [provided][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'optional'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT [optional][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile-internal'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT [compile-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->hello-domain#hello-domain_2.11;1.0.0-SNAPSHOT [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-domain#hello-domain_2.11;1.0.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-domain#hello-domain_2.11;1.0.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-domain#hello-domain_2.11;1.0.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-domain#hello-domain_2.11;1.0.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-domain#hello-domain_2.11;1.0.0-SNAPSHOT->joda-time#joda-time;2.9.9 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-domain#hello-domain_2.11;1.0.0-SNAPSHOT->joda-time#joda-time;2.9.9 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-domain#hello-domain_2.11;1.0.0-SNAPSHOT->joda-time#joda-time;2.9.9 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-domain#hello-domain_2.11;1.0.0-SNAPSHOT->joda-time#joda-time;2.9.9 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-domain#hello-domain_2.11;1.0.0-SNAPSHOT->ch.qos.logback#logback-classic;1.1.7 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-domain#hello-domain_2.11;1.0.0-SNAPSHOT->ch.qos.logback#logback-classic;1.1.7 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-domain#hello-domain_2.11;1.0.0-SNAPSHOT->ch.qos.logback#logback-classic;1.1.7 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.1.7->ch.qos.logback#logback-core;1.1.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.1.7->ch.qos.logback#logback-core;1.1.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.1.7->org.slf4j#slf4j-api;1.7.20 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.1.7->org.slf4j#slf4j-api;1.7.20 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.1.7->ch.qos.logback#logback-core;1.1.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.1.7->ch.qos.logback#logback-core;1.1.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.1.7->org.slf4j#slf4j-api;1.7.20 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.1.7->org.slf4j#slf4j-api;1.7.20 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-domain#hello-domain_2.11;1.0.0-SNAPSHOT->ch.qos.logback#logback-classic;1.1.7 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-domain#hello-domain_2.11;1.0.0-SNAPSHOT->com.typesafe.scala-logging#scala-logging_2.11;3.5.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-domain#hello-domain_2.11;1.0.0-SNAPSHOT->com.typesafe.scala-logging#scala-logging_2.11;3.5.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-domain#hello-domain_2.11;1.0.0-SNAPSHOT->com.typesafe.scala-logging#scala-logging_2.11;3.5.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.scala-logging#scala-logging_2.11;3.5.0->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.scala-logging#scala-logging_2.11;3.5.0->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.scala-logging#scala-logging_2.11;3.5.0->org.scala-lang#scala-reflect;2.11.8 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.scala-logging#scala-logging_2.11;3.5.0->org.scala-lang#scala-reflect;2.11.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.8->org.scala-lang#scala-library;2.11.8 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.8->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.scala-logging#scala-logging_2.11;3.5.0->org.slf4j#slf4j-api;1.7.21 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.scala-logging#scala-logging_2.11;3.5.0->org.slf4j#slf4j-api;1.7.21 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.scala-logging#scala-logging_2.11;3.5.0->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.scala-logging#scala-logging_2.11;3.5.0->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.scala-logging#scala-logging_2.11;3.5.0->org.scala-lang#scala-reflect;2.11.8 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.scala-logging#scala-logging_2.11;3.5.0->org.scala-lang#scala-reflect;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.8->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.8->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.scala-logging#scala-logging_2.11;3.5.0->org.slf4j#slf4j-api;1.7.21 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.scala-logging#scala-logging_2.11;3.5.0->org.slf4j#slf4j-api;1.7.21 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-domain#hello-domain_2.11;1.0.0-SNAPSHOT->com.typesafe.scala-logging#scala-logging_2.11;3.5.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->joda-time#joda-time;2.9.9 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->joda-time#joda-time;2.9.9 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->joda-time#joda-time;2.9.9 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->joda-time#joda-time;2.9.9 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->ch.qos.logback#logback-classic;1.1.7 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->ch.qos.logback#logback-classic;1.1.7 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->ch.qos.logback#logback-classic;1.1.7 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->ch.qos.logback#logback-classic;1.1.7 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->com.typesafe.scala-logging#scala-logging_2.11;3.5.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->com.typesafe.scala-logging#scala-logging_2.11;3.5.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->com.typesafe.scala-logging#scala-logging_2.11;3.5.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->com.typesafe.scala-logging#scala-logging_2.11;3.5.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->mysql#mysql-connector-java;5.1.36 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->mysql#mysql-connector-java;5.1.36 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->mysql#mysql-connector-java;5.1.36 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->mysql#mysql-connector-java;5.1.36 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->org.scalikejdbc#scalikejdbc_2.11;2.5.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->org.scalikejdbc#scalikejdbc_2.11;2.5.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->org.scalikejdbc#scalikejdbc_2.11;2.5.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc_2.11;2.5.1->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc_2.11;2.5.1->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc_2.11;2.5.1->org.scalikejdbc#scalikejdbc-core_2.11;2.5.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc_2.11;2.5.1->org.scalikejdbc#scalikejdbc-core_2.11;2.5.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->org.scala-lang#scala-reflect;2.11.8 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->org.scala-lang#scala-reflect;2.11.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->org.apache.commons#commons-dbcp2;2.1.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->org.apache.commons#commons-dbcp2;2.1.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-dbcp2;2.1.1->org.apache.commons#commons-pool2;2.4.2 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-dbcp2;2.1.1->org.apache.commons#commons-pool2;2.4.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-dbcp2;2.1.1->commons-logging#commons-logging;1.2 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-dbcp2;2.1.1->commons-logging#commons-logging;1.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->org.slf4j#slf4j-api;1.7.24 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->org.slf4j#slf4j-api;1.7.24 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->joda-time#joda-time;2.9.5 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->joda-time#joda-time;2.9.9 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->joda-time#joda-time;2.9.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->joda-time#joda-time;2.9.9 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->org.joda#joda-convert;1.8.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->org.joda#joda-convert;1.8.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.6 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.8 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.6 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc_2.11;2.5.1->org.scalikejdbc#scalikejdbc-interpolation_2.11;2.5.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc_2.11;2.5.1->org.scalikejdbc#scalikejdbc-interpolation_2.11;2.5.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation_2.11;2.5.1->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation_2.11;2.5.1->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation_2.11;2.5.1->org.scalikejdbc#scalikejdbc-core_2.11;2.5.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation_2.11;2.5.1->org.scalikejdbc#scalikejdbc-core_2.11;2.5.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation_2.11;2.5.1->org.scalikejdbc#scalikejdbc-interpolation-macro_2.11;2.5.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation_2.11;2.5.1->org.scalikejdbc#scalikejdbc-interpolation-macro_2.11;2.5.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation-macro_2.11;2.5.1->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation-macro_2.11;2.5.1->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation-macro_2.11;2.5.1->org.scalikejdbc#scalikejdbc-core_2.11;2.5.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation-macro_2.11;2.5.1->org.scalikejdbc#scalikejdbc-core_2.11;2.5.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation-macro_2.11;2.5.1->org.scala-lang#scala-reflect;2.11.8 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation-macro_2.11;2.5.1->org.scala-lang#scala-reflect;2.11.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation_2.11;2.5.1->org.slf4j#slf4j-api;1.7.24 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation_2.11;2.5.1->org.slf4j#slf4j-api;1.7.24 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc_2.11;2.5.1->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc_2.11;2.5.1->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc_2.11;2.5.1->org.scalikejdbc#scalikejdbc-core_2.11;2.5.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc_2.11;2.5.1->org.scalikejdbc#scalikejdbc-core_2.11;2.5.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->org.scala-lang#scala-reflect;2.11.8 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->org.scala-lang#scala-reflect;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->org.apache.commons#commons-dbcp2;2.1.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->org.apache.commons#commons-dbcp2;2.1.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-dbcp2;2.1.1->org.apache.commons#commons-pool2;2.4.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-dbcp2;2.1.1->org.apache.commons#commons-pool2;2.4.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-dbcp2;2.1.1->commons-logging#commons-logging;1.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-dbcp2;2.1.1->commons-logging#commons-logging;1.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->org.slf4j#slf4j-api;1.7.24 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->org.slf4j#slf4j-api;1.7.24 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->joda-time#joda-time;2.9.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->joda-time#joda-time;2.9.9 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->joda-time#joda-time;2.9.9 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->org.joda#joda-convert;1.8.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->org.joda#joda-convert;1.8.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.6 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc_2.11;2.5.1->org.scalikejdbc#scalikejdbc-interpolation_2.11;2.5.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc_2.11;2.5.1->org.scalikejdbc#scalikejdbc-interpolation_2.11;2.5.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation_2.11;2.5.1->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation_2.11;2.5.1->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation_2.11;2.5.1->org.scalikejdbc#scalikejdbc-core_2.11;2.5.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation_2.11;2.5.1->org.scalikejdbc#scalikejdbc-core_2.11;2.5.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation_2.11;2.5.1->org.scalikejdbc#scalikejdbc-interpolation-macro_2.11;2.5.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation_2.11;2.5.1->org.scalikejdbc#scalikejdbc-interpolation-macro_2.11;2.5.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation-macro_2.11;2.5.1->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation-macro_2.11;2.5.1->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation-macro_2.11;2.5.1->org.scalikejdbc#scalikejdbc-core_2.11;2.5.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation-macro_2.11;2.5.1->org.scalikejdbc#scalikejdbc-core_2.11;2.5.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation-macro_2.11;2.5.1->org.scala-lang#scala-reflect;2.11.8 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation-macro_2.11;2.5.1->org.scala-lang#scala-reflect;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation_2.11;2.5.1->org.slf4j#slf4j-api;1.7.24 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation_2.11;2.5.1->org.slf4j#slf4j-api;1.7.24 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->org.scalikejdbc#scalikejdbc_2.11;2.5.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->org.scalikejdbc#scalikejdbc-config_2.11;2.5.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->org.scalikejdbc#scalikejdbc-config_2.11;2.5.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->org.scalikejdbc#scalikejdbc-config_2.11;2.5.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-config_2.11;2.5.1->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-config_2.11;2.5.1->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-config_2.11;2.5.1->org.scalikejdbc#scalikejdbc-core_2.11;2.5.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-config_2.11;2.5.1->org.scalikejdbc#scalikejdbc-core_2.11;2.5.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-config_2.11;2.5.1->com.typesafe#config;1.2.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-config_2.11;2.5.1->com.typesafe#config;1.2.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-config_2.11;2.5.1->org.slf4j#slf4j-api;1.7.24 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-config_2.11;2.5.1->org.slf4j#slf4j-api;1.7.24 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-config_2.11;2.5.1->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-config_2.11;2.5.1->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-config_2.11;2.5.1->org.scalikejdbc#scalikejdbc-core_2.11;2.5.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-config_2.11;2.5.1->org.scalikejdbc#scalikejdbc-core_2.11;2.5.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-config_2.11;2.5.1->com.typesafe#config;1.2.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-config_2.11;2.5.1->com.typesafe#config;1.2.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-config_2.11;2.5.1->org.slf4j#slf4j-api;1.7.24 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-config_2.11;2.5.1->org.slf4j#slf4j-api;1.7.24 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->org.scalikejdbc#scalikejdbc-config_2.11;2.5.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT [provided][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime-internal'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT [runtime-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->hello-domain#hello-domain_2.11;1.0.0-SNAPSHOT [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-domain#hello-domain_2.11;1.0.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-domain#hello-domain_2.11;1.0.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-domain#hello-domain_2.11;1.0.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-domain#hello-domain_2.11;1.0.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-domain#hello-domain_2.11;1.0.0-SNAPSHOT->joda-time#joda-time;2.9.9 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-domain#hello-domain_2.11;1.0.0-SNAPSHOT->joda-time#joda-time;2.9.9 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-domain#hello-domain_2.11;1.0.0-SNAPSHOT->joda-time#joda-time;2.9.9 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-domain#hello-domain_2.11;1.0.0-SNAPSHOT->joda-time#joda-time;2.9.9 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-domain#hello-domain_2.11;1.0.0-SNAPSHOT->ch.qos.logback#logback-classic;1.1.7 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-domain#hello-domain_2.11;1.0.0-SNAPSHOT->ch.qos.logback#logback-classic;1.1.7 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-domain#hello-domain_2.11;1.0.0-SNAPSHOT->ch.qos.logback#logback-classic;1.1.7 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.1.7->ch.qos.logback#logback-core;1.1.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.1.7->ch.qos.logback#logback-core;1.1.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.1.7->org.slf4j#slf4j-api;1.7.20 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.1.7->org.slf4j#slf4j-api;1.7.20 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.1.7->ch.qos.logback#logback-core;1.1.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.1.7->ch.qos.logback#logback-core;1.1.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.1.7->org.slf4j#slf4j-api;1.7.20 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.1.7->org.slf4j#slf4j-api;1.7.20 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-domain#hello-domain_2.11;1.0.0-SNAPSHOT->ch.qos.logback#logback-classic;1.1.7 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-domain#hello-domain_2.11;1.0.0-SNAPSHOT->com.typesafe.scala-logging#scala-logging_2.11;3.5.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-domain#hello-domain_2.11;1.0.0-SNAPSHOT->com.typesafe.scala-logging#scala-logging_2.11;3.5.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-domain#hello-domain_2.11;1.0.0-SNAPSHOT->com.typesafe.scala-logging#scala-logging_2.11;3.5.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.scala-logging#scala-logging_2.11;3.5.0->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.scala-logging#scala-logging_2.11;3.5.0->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.scala-logging#scala-logging_2.11;3.5.0->org.scala-lang#scala-reflect;2.11.8 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.scala-logging#scala-logging_2.11;3.5.0->org.scala-lang#scala-reflect;2.11.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.8->org.scala-lang#scala-library;2.11.8 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.8->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.scala-logging#scala-logging_2.11;3.5.0->org.slf4j#slf4j-api;1.7.21 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.scala-logging#scala-logging_2.11;3.5.0->org.slf4j#slf4j-api;1.7.21 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.scala-logging#scala-logging_2.11;3.5.0->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.scala-logging#scala-logging_2.11;3.5.0->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.scala-logging#scala-logging_2.11;3.5.0->org.scala-lang#scala-reflect;2.11.8 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.scala-logging#scala-logging_2.11;3.5.0->org.scala-lang#scala-reflect;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.8->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.8->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.scala-logging#scala-logging_2.11;3.5.0->org.slf4j#slf4j-api;1.7.21 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.scala-logging#scala-logging_2.11;3.5.0->org.slf4j#slf4j-api;1.7.21 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-domain#hello-domain_2.11;1.0.0-SNAPSHOT->com.typesafe.scala-logging#scala-logging_2.11;3.5.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->joda-time#joda-time;2.9.9 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->joda-time#joda-time;2.9.9 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->joda-time#joda-time;2.9.9 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->joda-time#joda-time;2.9.9 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->ch.qos.logback#logback-classic;1.1.7 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->ch.qos.logback#logback-classic;1.1.7 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->ch.qos.logback#logback-classic;1.1.7 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->ch.qos.logback#logback-classic;1.1.7 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->com.typesafe.scala-logging#scala-logging_2.11;3.5.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->com.typesafe.scala-logging#scala-logging_2.11;3.5.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->com.typesafe.scala-logging#scala-logging_2.11;3.5.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->com.typesafe.scala-logging#scala-logging_2.11;3.5.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->mysql#mysql-connector-java;5.1.36 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->mysql#mysql-connector-java;5.1.36 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->mysql#mysql-connector-java;5.1.36 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->mysql#mysql-connector-java;5.1.36 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->org.scalikejdbc#scalikejdbc_2.11;2.5.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->org.scalikejdbc#scalikejdbc_2.11;2.5.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->org.scalikejdbc#scalikejdbc_2.11;2.5.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc_2.11;2.5.1->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc_2.11;2.5.1->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc_2.11;2.5.1->org.scalikejdbc#scalikejdbc-core_2.11;2.5.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc_2.11;2.5.1->org.scalikejdbc#scalikejdbc-core_2.11;2.5.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->org.scala-lang#scala-reflect;2.11.8 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->org.scala-lang#scala-reflect;2.11.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->org.apache.commons#commons-dbcp2;2.1.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->org.apache.commons#commons-dbcp2;2.1.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-dbcp2;2.1.1->org.apache.commons#commons-pool2;2.4.2 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-dbcp2;2.1.1->org.apache.commons#commons-pool2;2.4.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-dbcp2;2.1.1->commons-logging#commons-logging;1.2 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-dbcp2;2.1.1->commons-logging#commons-logging;1.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->org.slf4j#slf4j-api;1.7.24 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->org.slf4j#slf4j-api;1.7.24 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->joda-time#joda-time;2.9.5 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->joda-time#joda-time;2.9.9 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->joda-time#joda-time;2.9.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->joda-time#joda-time;2.9.9 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->org.joda#joda-convert;1.8.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->org.joda#joda-convert;1.8.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.6 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.8 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.6 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc_2.11;2.5.1->org.scalikejdbc#scalikejdbc-interpolation_2.11;2.5.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc_2.11;2.5.1->org.scalikejdbc#scalikejdbc-interpolation_2.11;2.5.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation_2.11;2.5.1->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation_2.11;2.5.1->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation_2.11;2.5.1->org.scalikejdbc#scalikejdbc-core_2.11;2.5.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation_2.11;2.5.1->org.scalikejdbc#scalikejdbc-core_2.11;2.5.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation_2.11;2.5.1->org.scalikejdbc#scalikejdbc-interpolation-macro_2.11;2.5.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation_2.11;2.5.1->org.scalikejdbc#scalikejdbc-interpolation-macro_2.11;2.5.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation-macro_2.11;2.5.1->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation-macro_2.11;2.5.1->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation-macro_2.11;2.5.1->org.scalikejdbc#scalikejdbc-core_2.11;2.5.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation-macro_2.11;2.5.1->org.scalikejdbc#scalikejdbc-core_2.11;2.5.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation-macro_2.11;2.5.1->org.scala-lang#scala-reflect;2.11.8 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation-macro_2.11;2.5.1->org.scala-lang#scala-reflect;2.11.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation_2.11;2.5.1->org.slf4j#slf4j-api;1.7.24 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation_2.11;2.5.1->org.slf4j#slf4j-api;1.7.24 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc_2.11;2.5.1->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc_2.11;2.5.1->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc_2.11;2.5.1->org.scalikejdbc#scalikejdbc-core_2.11;2.5.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc_2.11;2.5.1->org.scalikejdbc#scalikejdbc-core_2.11;2.5.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->org.scala-lang#scala-reflect;2.11.8 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->org.scala-lang#scala-reflect;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->org.apache.commons#commons-dbcp2;2.1.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->org.apache.commons#commons-dbcp2;2.1.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-dbcp2;2.1.1->org.apache.commons#commons-pool2;2.4.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-dbcp2;2.1.1->org.apache.commons#commons-pool2;2.4.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-dbcp2;2.1.1->commons-logging#commons-logging;1.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-dbcp2;2.1.1->commons-logging#commons-logging;1.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->org.slf4j#slf4j-api;1.7.24 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->org.slf4j#slf4j-api;1.7.24 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->joda-time#joda-time;2.9.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->joda-time#joda-time;2.9.9 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->joda-time#joda-time;2.9.9 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->org.joda#joda-convert;1.8.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->org.joda#joda-convert;1.8.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.6 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc_2.11;2.5.1->org.scalikejdbc#scalikejdbc-interpolation_2.11;2.5.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc_2.11;2.5.1->org.scalikejdbc#scalikejdbc-interpolation_2.11;2.5.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation_2.11;2.5.1->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation_2.11;2.5.1->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation_2.11;2.5.1->org.scalikejdbc#scalikejdbc-core_2.11;2.5.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation_2.11;2.5.1->org.scalikejdbc#scalikejdbc-core_2.11;2.5.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation_2.11;2.5.1->org.scalikejdbc#scalikejdbc-interpolation-macro_2.11;2.5.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation_2.11;2.5.1->org.scalikejdbc#scalikejdbc-interpolation-macro_2.11;2.5.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation-macro_2.11;2.5.1->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation-macro_2.11;2.5.1->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation-macro_2.11;2.5.1->org.scalikejdbc#scalikejdbc-core_2.11;2.5.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation-macro_2.11;2.5.1->org.scalikejdbc#scalikejdbc-core_2.11;2.5.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation-macro_2.11;2.5.1->org.scala-lang#scala-reflect;2.11.8 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation-macro_2.11;2.5.1->org.scala-lang#scala-reflect;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation_2.11;2.5.1->org.slf4j#slf4j-api;1.7.24 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation_2.11;2.5.1->org.slf4j#slf4j-api;1.7.24 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->org.scalikejdbc#scalikejdbc_2.11;2.5.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->org.scalikejdbc#scalikejdbc-config_2.11;2.5.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->org.scalikejdbc#scalikejdbc-config_2.11;2.5.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->org.scalikejdbc#scalikejdbc-config_2.11;2.5.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-config_2.11;2.5.1->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-config_2.11;2.5.1->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-config_2.11;2.5.1->org.scalikejdbc#scalikejdbc-core_2.11;2.5.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-config_2.11;2.5.1->org.scalikejdbc#scalikejdbc-core_2.11;2.5.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-config_2.11;2.5.1->com.typesafe#config;1.2.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-config_2.11;2.5.1->com.typesafe#config;1.2.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-config_2.11;2.5.1->org.slf4j#slf4j-api;1.7.24 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-config_2.11;2.5.1->org.slf4j#slf4j-api;1.7.24 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-config_2.11;2.5.1->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-config_2.11;2.5.1->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-config_2.11;2.5.1->org.scalikejdbc#scalikejdbc-core_2.11;2.5.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-config_2.11;2.5.1->org.scalikejdbc#scalikejdbc-core_2.11;2.5.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-config_2.11;2.5.1->com.typesafe#config;1.2.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-config_2.11;2.5.1->com.typesafe#config;1.2.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-config_2.11;2.5.1->org.slf4j#slf4j-api;1.7.24 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-config_2.11;2.5.1->org.slf4j#slf4j-api;1.7.24 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->org.scalikejdbc#scalikejdbc-config_2.11;2.5.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT [optional][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test-internal'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT [test-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT [test][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->hello-domain#hello-domain_2.11;1.0.0-SNAPSHOT [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-domain#hello-domain_2.11;1.0.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-domain#hello-domain_2.11;1.0.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-domain#hello-domain_2.11;1.0.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-domain#hello-domain_2.11;1.0.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-domain#hello-domain_2.11;1.0.0-SNAPSHOT->joda-time#joda-time;2.9.9 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-domain#hello-domain_2.11;1.0.0-SNAPSHOT->joda-time#joda-time;2.9.9 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-domain#hello-domain_2.11;1.0.0-SNAPSHOT->joda-time#joda-time;2.9.9 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-domain#hello-domain_2.11;1.0.0-SNAPSHOT->joda-time#joda-time;2.9.9 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-domain#hello-domain_2.11;1.0.0-SNAPSHOT->ch.qos.logback#logback-classic;1.1.7 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-domain#hello-domain_2.11;1.0.0-SNAPSHOT->ch.qos.logback#logback-classic;1.1.7 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-domain#hello-domain_2.11;1.0.0-SNAPSHOT->ch.qos.logback#logback-classic;1.1.7 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.1.7->ch.qos.logback#logback-core;1.1.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.1.7->ch.qos.logback#logback-core;1.1.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.1.7->org.slf4j#slf4j-api;1.7.20 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.1.7->org.slf4j#slf4j-api;1.7.20 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.1.7->ch.qos.logback#logback-core;1.1.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.1.7->ch.qos.logback#logback-core;1.1.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.1.7->org.slf4j#slf4j-api;1.7.20 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.1.7->org.slf4j#slf4j-api;1.7.20 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-domain#hello-domain_2.11;1.0.0-SNAPSHOT->ch.qos.logback#logback-classic;1.1.7 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-domain#hello-domain_2.11;1.0.0-SNAPSHOT->com.typesafe.scala-logging#scala-logging_2.11;3.5.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-domain#hello-domain_2.11;1.0.0-SNAPSHOT->com.typesafe.scala-logging#scala-logging_2.11;3.5.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-domain#hello-domain_2.11;1.0.0-SNAPSHOT->com.typesafe.scala-logging#scala-logging_2.11;3.5.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.scala-logging#scala-logging_2.11;3.5.0->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.scala-logging#scala-logging_2.11;3.5.0->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.scala-logging#scala-logging_2.11;3.5.0->org.scala-lang#scala-reflect;2.11.8 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.scala-logging#scala-logging_2.11;3.5.0->org.scala-lang#scala-reflect;2.11.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.8->org.scala-lang#scala-library;2.11.8 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.8->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.scala-logging#scala-logging_2.11;3.5.0->org.slf4j#slf4j-api;1.7.21 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.scala-logging#scala-logging_2.11;3.5.0->org.slf4j#slf4j-api;1.7.21 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.scala-logging#scala-logging_2.11;3.5.0->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.scala-logging#scala-logging_2.11;3.5.0->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.scala-logging#scala-logging_2.11;3.5.0->org.scala-lang#scala-reflect;2.11.8 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.scala-logging#scala-logging_2.11;3.5.0->org.scala-lang#scala-reflect;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.8->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.8->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.scala-logging#scala-logging_2.11;3.5.0->org.slf4j#slf4j-api;1.7.21 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.scala-logging#scala-logging_2.11;3.5.0->org.slf4j#slf4j-api;1.7.21 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-domain#hello-domain_2.11;1.0.0-SNAPSHOT->com.typesafe.scala-logging#scala-logging_2.11;3.5.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->joda-time#joda-time;2.9.9 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->joda-time#joda-time;2.9.9 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->joda-time#joda-time;2.9.9 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->joda-time#joda-time;2.9.9 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->ch.qos.logback#logback-classic;1.1.7 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->ch.qos.logback#logback-classic;1.1.7 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->ch.qos.logback#logback-classic;1.1.7 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->ch.qos.logback#logback-classic;1.1.7 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->com.typesafe.scala-logging#scala-logging_2.11;3.5.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->com.typesafe.scala-logging#scala-logging_2.11;3.5.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->com.typesafe.scala-logging#scala-logging_2.11;3.5.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->com.typesafe.scala-logging#scala-logging_2.11;3.5.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->mysql#mysql-connector-java;5.1.36 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->mysql#mysql-connector-java;5.1.36 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->mysql#mysql-connector-java;5.1.36 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->mysql#mysql-connector-java;5.1.36 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->org.scalikejdbc#scalikejdbc_2.11;2.5.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->org.scalikejdbc#scalikejdbc_2.11;2.5.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->org.scalikejdbc#scalikejdbc_2.11;2.5.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc_2.11;2.5.1->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc_2.11;2.5.1->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc_2.11;2.5.1->org.scalikejdbc#scalikejdbc-core_2.11;2.5.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc_2.11;2.5.1->org.scalikejdbc#scalikejdbc-core_2.11;2.5.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->org.scala-lang#scala-reflect;2.11.8 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->org.scala-lang#scala-reflect;2.11.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->org.apache.commons#commons-dbcp2;2.1.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->org.apache.commons#commons-dbcp2;2.1.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-dbcp2;2.1.1->org.apache.commons#commons-pool2;2.4.2 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-dbcp2;2.1.1->org.apache.commons#commons-pool2;2.4.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-dbcp2;2.1.1->commons-logging#commons-logging;1.2 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-dbcp2;2.1.1->commons-logging#commons-logging;1.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->org.slf4j#slf4j-api;1.7.24 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->org.slf4j#slf4j-api;1.7.24 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->joda-time#joda-time;2.9.5 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->joda-time#joda-time;2.9.9 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->joda-time#joda-time;2.9.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->joda-time#joda-time;2.9.9 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->org.joda#joda-convert;1.8.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->org.joda#joda-convert;1.8.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.6 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.8 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.6 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc_2.11;2.5.1->org.scalikejdbc#scalikejdbc-interpolation_2.11;2.5.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc_2.11;2.5.1->org.scalikejdbc#scalikejdbc-interpolation_2.11;2.5.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation_2.11;2.5.1->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation_2.11;2.5.1->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation_2.11;2.5.1->org.scalikejdbc#scalikejdbc-core_2.11;2.5.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation_2.11;2.5.1->org.scalikejdbc#scalikejdbc-core_2.11;2.5.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation_2.11;2.5.1->org.scalikejdbc#scalikejdbc-interpolation-macro_2.11;2.5.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation_2.11;2.5.1->org.scalikejdbc#scalikejdbc-interpolation-macro_2.11;2.5.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation-macro_2.11;2.5.1->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation-macro_2.11;2.5.1->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation-macro_2.11;2.5.1->org.scalikejdbc#scalikejdbc-core_2.11;2.5.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation-macro_2.11;2.5.1->org.scalikejdbc#scalikejdbc-core_2.11;2.5.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation-macro_2.11;2.5.1->org.scala-lang#scala-reflect;2.11.8 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation-macro_2.11;2.5.1->org.scala-lang#scala-reflect;2.11.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation_2.11;2.5.1->org.slf4j#slf4j-api;1.7.24 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation_2.11;2.5.1->org.slf4j#slf4j-api;1.7.24 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc_2.11;2.5.1->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc_2.11;2.5.1->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc_2.11;2.5.1->org.scalikejdbc#scalikejdbc-core_2.11;2.5.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc_2.11;2.5.1->org.scalikejdbc#scalikejdbc-core_2.11;2.5.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->org.scala-lang#scala-reflect;2.11.8 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->org.scala-lang#scala-reflect;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->org.apache.commons#commons-dbcp2;2.1.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->org.apache.commons#commons-dbcp2;2.1.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-dbcp2;2.1.1->org.apache.commons#commons-pool2;2.4.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-dbcp2;2.1.1->org.apache.commons#commons-pool2;2.4.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-dbcp2;2.1.1->commons-logging#commons-logging;1.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-dbcp2;2.1.1->commons-logging#commons-logging;1.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->org.slf4j#slf4j-api;1.7.24 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->org.slf4j#slf4j-api;1.7.24 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->joda-time#joda-time;2.9.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->joda-time#joda-time;2.9.9 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->joda-time#joda-time;2.9.9 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->org.joda#joda-convert;1.8.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->org.joda#joda-convert;1.8.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-core_2.11;2.5.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.6 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc_2.11;2.5.1->org.scalikejdbc#scalikejdbc-interpolation_2.11;2.5.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc_2.11;2.5.1->org.scalikejdbc#scalikejdbc-interpolation_2.11;2.5.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation_2.11;2.5.1->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation_2.11;2.5.1->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation_2.11;2.5.1->org.scalikejdbc#scalikejdbc-core_2.11;2.5.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation_2.11;2.5.1->org.scalikejdbc#scalikejdbc-core_2.11;2.5.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation_2.11;2.5.1->org.scalikejdbc#scalikejdbc-interpolation-macro_2.11;2.5.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation_2.11;2.5.1->org.scalikejdbc#scalikejdbc-interpolation-macro_2.11;2.5.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation-macro_2.11;2.5.1->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation-macro_2.11;2.5.1->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation-macro_2.11;2.5.1->org.scalikejdbc#scalikejdbc-core_2.11;2.5.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation-macro_2.11;2.5.1->org.scalikejdbc#scalikejdbc-core_2.11;2.5.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation-macro_2.11;2.5.1->org.scala-lang#scala-reflect;2.11.8 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation-macro_2.11;2.5.1->org.scala-lang#scala-reflect;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation_2.11;2.5.1->org.slf4j#slf4j-api;1.7.24 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-interpolation_2.11;2.5.1->org.slf4j#slf4j-api;1.7.24 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->org.scalikejdbc#scalikejdbc_2.11;2.5.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->org.scalikejdbc#scalikejdbc-config_2.11;2.5.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->org.scalikejdbc#scalikejdbc-config_2.11;2.5.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->org.scalikejdbc#scalikejdbc-config_2.11;2.5.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-config_2.11;2.5.1->org.scala-lang#scala-library;2.11.8 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-config_2.11;2.5.1->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-config_2.11;2.5.1->org.scalikejdbc#scalikejdbc-core_2.11;2.5.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-config_2.11;2.5.1->org.scalikejdbc#scalikejdbc-core_2.11;2.5.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-config_2.11;2.5.1->com.typesafe#config;1.2.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-config_2.11;2.5.1->com.typesafe#config;1.2.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-config_2.11;2.5.1->org.slf4j#slf4j-api;1.7.24 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-config_2.11;2.5.1->org.slf4j#slf4j-api;1.7.24 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-config_2.11;2.5.1->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-config_2.11;2.5.1->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-config_2.11;2.5.1->org.scalikejdbc#scalikejdbc-core_2.11;2.5.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-config_2.11;2.5.1->org.scalikejdbc#scalikejdbc-core_2.11;2.5.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-config_2.11;2.5.1->com.typesafe#config;1.2.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-config_2.11;2.5.1->com.typesafe#config;1.2.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-config_2.11;2.5.1->org.slf4j#slf4j-api;1.7.24 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalikejdbc#scalikejdbc-config_2.11;2.5.1->org.slf4j#slf4j-api;1.7.24 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->org.scalikejdbc#scalikejdbc-config_2.11;2.5.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT [provided][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'plugin'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT [plugin][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'sources'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT [sources][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'docs'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT [docs][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'pom'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT [pom][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'scala-tool'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT [scala-tool][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->org.scala-lang#scala-compiler;2.11.8 [scala-tool->default][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-compiler;2.11.8 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-compiler;2.11.8 {scala-tool=[default, optional(default)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-compiler;2.11.8[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-compiler;2.11.8 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->org.scala-lang#scala-compiler;2.11.8 [scala-tool->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->org.scala-lang#scala-compiler;2.11.8 [scala-tool->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang#scala-library;2.11.8 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang#scala-library;2.11.8 [compile->default][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang#scala-library;2.11.8 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang#scala-library;2.11.8 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang#scala-library;2.11.8 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang#scala-library;2.11.8 [compile->optional(default)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang#scala-reflect;2.11.8 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang#scala-reflect;2.11.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.8->org.scala-lang#scala-library;2.11.8 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.8->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang.modules#scala-xml_2.11;1.0.4 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang.modules#scala-xml_2.11;1.0.4 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-xml_2.11;1.0.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang.modules#scala-xml_2.11;1.0.4[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang.modules#scala-xml_2.11;1.0.4 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang.modules#scala-xml_2.11;1.0.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.8 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang.modules#scala-xml_2.11;1.0.4 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang.modules#scala-xml_2.11;1.0.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.6 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.8 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.6 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang#scala-reflect;2.11.8 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang#scala-reflect;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.8->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.8->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang.modules#scala-xml_2.11;1.0.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang.modules#scala-xml_2.11;1.0.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.6 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->org.scala-lang#scala-compiler;2.11.8 [scala-tool->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->org.scala-lang#scala-compiler;2.11.8 [scala-tool->optional(default)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.8->jline#jline;2.12.1 [optional->master(*)][0m
+[0m[[0minfo[0m] [0mResolving jline#jline;2.12.1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: jline#jline;2.12.1 {optional=[compile(*), master(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: jline#jline;2.12.1[0m
+[0m[[0mdebug[0m] [0m	found jline#jline;2.12.1 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.8->jline#jline;2.12.1 [optional->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [scala-tool->default][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [scala-tool->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [scala-tool->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [scala-tool->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [scala-tool->optional(default)][0m
+[0m[[0mdebug[0m] [0m	resolved ivy file produced in cache[0m
+[0m[[0mdebug[0m] [0m:: downloading artifacts ::[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-library;2.11.8!scala-library.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] joda-time#joda-time;2.9.9!joda-time.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] ch.qos.logback#logback-classic;1.1.7!logback-classic.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.scala-logging#scala-logging_2.11;3.5.0!scala-logging_2.11.jar(bundle)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] mysql#mysql-connector-java;5.1.36!mysql-connector-java.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scalikejdbc#scalikejdbc_2.11;2.5.1!scalikejdbc_2.11.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scalikejdbc#scalikejdbc-config_2.11;2.5.1!scalikejdbc-config_2.11.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] ch.qos.logback#logback-core;1.1.7!logback-core.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.8!scala-reflect.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scalikejdbc#scalikejdbc-core_2.11;2.5.1!scalikejdbc-core_2.11.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scalikejdbc#scalikejdbc-interpolation_2.11;2.5.1!scalikejdbc-interpolation_2.11.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.commons#commons-dbcp2;2.1.1!commons-dbcp2.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.slf4j#slf4j-api;1.7.24!slf4j-api.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.joda#joda-convert;1.8.1!joda-convert.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4!scala-parser-combinators_2.11.jar(bundle)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.commons#commons-pool2;2.4.2!commons-pool2.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] commons-logging#commons-logging;1.2!commons-logging.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scalikejdbc#scalikejdbc-interpolation-macro_2.11;2.5.1!scalikejdbc-interpolation-macro_2.11.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe#config;1.2.1!config.jar(bundle)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.11.8!scala-compiler.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.4!scala-xml_2.11.jar(bundle)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] jline#jline;2.12.1!jline.jar[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 2315ms :: artifacts dl 14ms[0m
+[0m[[0mdebug[0m] [0m	report for hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT compile produced in /Users/fujita/dev/nulab/labo/hello/infra/target/resolution-cache/reports/hello-infra-hello-infra_2.11-compile.xml[0m
+[0m[[0mdebug[0m] [0m	report for hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT runtime produced in /Users/fujita/dev/nulab/labo/hello/infra/target/resolution-cache/reports/hello-infra-hello-infra_2.11-runtime.xml[0m
+[0m[[0mdebug[0m] [0m	report for hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT test produced in /Users/fujita/dev/nulab/labo/hello/infra/target/resolution-cache/reports/hello-infra-hello-infra_2.11-test.xml[0m
+[0m[[0mdebug[0m] [0m	report for hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT provided produced in /Users/fujita/dev/nulab/labo/hello/infra/target/resolution-cache/reports/hello-infra-hello-infra_2.11-provided.xml[0m
+[0m[[0mdebug[0m] [0m	report for hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT optional produced in /Users/fujita/dev/nulab/labo/hello/infra/target/resolution-cache/reports/hello-infra-hello-infra_2.11-optional.xml[0m
+[0m[[0mdebug[0m] [0m	report for hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT compile-internal produced in /Users/fujita/dev/nulab/labo/hello/infra/target/resolution-cache/reports/hello-infra-hello-infra_2.11-compile-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT runtime-internal produced in /Users/fujita/dev/nulab/labo/hello/infra/target/resolution-cache/reports/hello-infra-hello-infra_2.11-runtime-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT test-internal produced in /Users/fujita/dev/nulab/labo/hello/infra/target/resolution-cache/reports/hello-infra-hello-infra_2.11-test-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT plugin produced in /Users/fujita/dev/nulab/labo/hello/infra/target/resolution-cache/reports/hello-infra-hello-infra_2.11-plugin.xml[0m
+[0m[[0mdebug[0m] [0m	report for hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT sources produced in /Users/fujita/dev/nulab/labo/hello/infra/target/resolution-cache/reports/hello-infra-hello-infra_2.11-sources.xml[0m
+[0m[[0mdebug[0m] [0m	report for hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT docs produced in /Users/fujita/dev/nulab/labo/hello/infra/target/resolution-cache/reports/hello-infra-hello-infra_2.11-docs.xml[0m
+[0m[[0mdebug[0m] [0m	report for hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT pom produced in /Users/fujita/dev/nulab/labo/hello/infra/target/resolution-cache/reports/hello-infra-hello-infra_2.11-pom.xml[0m
+[0m[[0mdebug[0m] [0m	report for hello-infra#hello-infra_2.11;1.0.0-SNAPSHOT scala-tool produced in /Users/fujita/dev/nulab/labo/hello/infra/target/resolution-cache/reports/hello-infra-hello-infra_2.11-scala-tool.xml[0m
+[0m[[0mdebug[0m] [0m	resolve done (2315ms resolve - 14ms download)[0m
+[0m[[0minfo[0m] [0mDone updating.[0m
